@@ -70,3 +70,11 @@ The local proof check is not a sponsor acceptance, an external expert review,
 or a novelty/priority certificate. The source comparisons and their limits
 are recorded in [the novelty report](docs/NOVELTY_REPORT.md). No prize or
 particular award allocation is asserted.
+
+## Submission status
+
+The complete solution and Lean formalization were submitted for review in
+[The Justin Sun Prize PR #5522](https://github.com/TheJustinSunPrize/awards/pull/5522).
+The selected proof commit is `4b2ed2d07693602fa3b87fb5aa72fe16933f98af`;
+verification evidence is at `e7c9631dec66ae066852df90bb772bbc74e8605d`.
+Submission does not imply acceptance, an award or payment.
