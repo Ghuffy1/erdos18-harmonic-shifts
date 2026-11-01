@@ -1,0 +1,34 @@
+{
+  "module": "Erdos18c.LocalRepresentatives",
+  "command": [
+    "C:/Users/grant/.elan/toolchains/leanprover--lean4---v4.34.0/bin/lean.exe",
+    "--memory=2048",
+    "-j1",
+    "--root=F:\\Problems agent\\hub\\submission_repositories\\erdos18-harmonic-shifts-20261101\\lean",
+    "-o",
+    "F:\\Problems agent\\hub\\submission_repositories\\erdos18-harmonic-shifts-20261101\\lean\\.verify-p7606gcs\\Erdos18c\\LocalRepresentatives.olean",
+    "F:\\Problems agent\\hub\\submission_repositories\\erdos18-harmonic-shifts-20261101\\lean\\Erdos18c\\LocalRepresentatives.lean"
+  ],
+  "dependency_project": "F:\\jsp-work\\Jsp614",
+  "source_sha256": "0441995e5cd151f9c7a894473e35c23cd87884833d0ab722926206345690922e",
+  "checked_at": "2026-11-01T19:29:25.472329+00:00",
+  "elapsed_seconds": 8.484,
+  "exit_code": 0,
+  "timeout": false,
+  "timeout_seconds": 180,
+  "memory_mb": 2048,
+  "stdout": "'Erdos18c.modular_representatives_of_profile' depends on axioms: [propext, Classical.choice, Quot.sound]\n",
+  "stderr": "",
+  "full_erdos18c_verification": false,
+  "trust_zero": false,
+  "scope": "This record covers the named module only.",
+  "axiom_audits": {
+    "Erdos18c.modular_representatives_of_profile": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  "axiom_audits_standard_only": true,
+  "output_sha256": "13fea9ec31ff07fa652e014d0f2f3ccf62069dc2e522d0bb471e2517ec2c72c7"
+}

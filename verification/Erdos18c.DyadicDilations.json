@@ -1,0 +1,34 @@
+{
+  "module": "Erdos18c.DyadicDilations",
+  "command": [
+    "C:/Users/grant/.elan/toolchains/leanprover--lean4---v4.34.0/bin/lean.exe",
+    "--memory=2048",
+    "-j1",
+    "--root=F:\\Problems agent\\hub\\submission_repositories\\erdos18-harmonic-shifts-20261101\\lean",
+    "-o",
+    "F:\\Problems agent\\hub\\submission_repositories\\erdos18-harmonic-shifts-20261101\\lean\\.verify-p7606gcs\\Erdos18c\\DyadicDilations.olean",
+    "F:\\Problems agent\\hub\\submission_repositories\\erdos18-harmonic-shifts-20261101\\lean\\Erdos18c\\DyadicDilations.lean"
+  ],
+  "dependency_project": "F:\\jsp-work\\Jsp614",
+  "source_sha256": "933859bd1b4a6cec97a1b65245dd918031a7289d98de7b09ab68c1663b64fab5",
+  "checked_at": "2026-11-01T19:28:56.906763+00:00",
+  "elapsed_seconds": 7.437,
+  "exit_code": 0,
+  "timeout": false,
+  "timeout_seconds": 180,
+  "memory_mb": 2048,
+  "stdout": "'Erdos18c.dyadicDilate_project' depends on axioms: [propext, Classical.choice, Quot.sound]\n",
+  "stderr": "",
+  "full_erdos18c_verification": false,
+  "trust_zero": false,
+  "scope": "This record covers the named module only.",
+  "axiom_audits": {
+    "Erdos18c.dyadicDilate_project": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  "axiom_audits_standard_only": true,
+  "output_sha256": "d2cfab19258c589c291fa8b27925874aa066e5d2f1fb4c114bd2bbfcb63ac6cd"
+}

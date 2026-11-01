@@ -1,0 +1,55 @@
+{
+  "module": "Erdos18c",
+  "command": [
+    "C:/Users/grant/.elan/toolchains/leanprover--lean4---v4.34.0/bin/lean.exe",
+    "--trust=0",
+    "--memory=2048",
+    "-j1",
+    "--root=F:\\Problems agent\\hub\\submission_repositories\\erdos18-harmonic-shifts-20261101\\lean",
+    "-o",
+    "F:\\Problems agent\\hub\\submission_repositories\\erdos18-harmonic-shifts-20261101\\lean\\.verify-p7606gcs\\Erdos18c.olean",
+    "F:\\Problems agent\\hub\\submission_repositories\\erdos18-harmonic-shifts-20261101\\lean\\Erdos18c.lean"
+  ],
+  "dependency_project": "F:\\jsp-work\\Jsp614",
+  "source_sha256": "356821b9e3f9f3ac6d51d0c2b37d020e013e14529dda3a2dc61fe9d1eb5f349e",
+  "checked_at": "2026-11-01T19:34:36.302911+00:00",
+  "elapsed_seconds": 7.156,
+  "exit_code": 0,
+  "timeout": false,
+  "timeout_seconds": 180,
+  "memory_mb": 2048,
+  "stdout": "Erdos18c.ninthPowerBound : Erdos18c.NinthPowerBound\nErdos18c.erdos_18_full : Erdos18c.FullStatement\nErdos18.erdos_18a :\n  \u2203 C, 0 < C \u2227 \u2203\u1da0 (m : \u2115) in Filter.atTop, m.IsPractical \u2227 \u2191(Erdos18.practicalH m) < Real.log (Real.log \u2191m) ^ C\nErdos18.erdos_18b (\u03b5 : \u211d) : 0 < \u03b5 \u2192 \u2200\u1da0 (n : \u2115) in Filter.atTop, \u2191(Erdos18.practicalH n.factorial) < \u2191n ^ \u03b5\nErdos18.erdos_18c : \u2203 C, 0 < C \u2227 \u2200\u1da0 (n : \u2115) in Filter.atTop, \u2191(Erdos18.practicalH n.factorial) < Real.log \u2191n ^ C\n'Erdos18c.ninthPowerBound' depends on axioms: [propext, Classical.choice, Quot.sound]\n'Erdos18c.erdos_18_full' depends on axioms: [propext, Classical.choice, Quot.sound]\n'Erdos18.erdos_18a' depends on axioms: [propext, Classical.choice, Quot.sound]\n'Erdos18.erdos_18b' depends on axioms: [propext, Classical.choice, Quot.sound]\n'Erdos18.erdos_18c' depends on axioms: [propext, Classical.choice, Quot.sound]\n",
+  "stderr": "",
+  "full_erdos18c_verification": true,
+  "trust_zero": true,
+  "scope": "This record covers the named module only.",
+  "axiom_audits": {
+    "Erdos18c.ninthPowerBound": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos18c.erdos_18_full": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos18.erdos_18a": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos18.erdos_18b": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos18.erdos_18c": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  "axiom_audits_standard_only": true,
+  "output_sha256": "4ff86a816efc95969773c2f9ec9a768c6570c782ce609bc2e0d9a5aa622d2afc"
+}

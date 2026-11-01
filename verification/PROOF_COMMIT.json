@@ -1,0 +1,135 @@
+{
+  "checked_at": "2026-11-01T19:34:57.278289+00:00",
+  "repository": "https://github.com/Ghuffy1/erdos18-harmonic-shifts",
+  "proof_commit": "4b2ed2d07693602fa3b87fb5aa72fe16933f98af",
+  "production_modules": 24,
+  "proof_files": [
+    {
+      "path": "lean/Erdos18c/Arithmetic.lean",
+      "sha256": "f1f2d69d1fc3f364b762e3294145d72efb273158a0be4240df660b4886b562ce"
+    },
+    {
+      "path": "lean/Erdos18c/BinaryEntropy.lean",
+      "sha256": "4a49472d3402db15505e39810b2becf2a297f4f6cb5ed8ffc63e618fe3c481bf"
+    },
+    {
+      "path": "lean/Erdos18c/DigitInput.lean",
+      "sha256": "e17f3e233f42fe13075ab2021d25ee4fd04ff1d80b5170808cdfac95eff72665"
+    },
+    {
+      "path": "lean/Erdos18c/DivisorDigits.lean",
+      "sha256": "06d8f3296d8398237c17f7a68e0d604ace1f893ef1d182e9d5a3bcddfaa5b02d"
+    },
+    {
+      "path": "lean/Erdos18c/DivisorRepresentations.lean",
+      "sha256": "8d0d9ea248b99728d848555436cb2819510b65ae1b3126dd1526cb89860b7e56"
+    },
+    {
+      "path": "lean/Erdos18c/DyadicConvolution.lean",
+      "sha256": "b01bd6deecc3f30809ee8e853336bc1cea1feeec31115c13bde2ff606ba94a71"
+    },
+    {
+      "path": "lean/Erdos18c/DyadicDilations.lean",
+      "sha256": "933859bd1b4a6cec97a1b65245dd918031a7289d98de7b09ab68c1663b64fab5"
+    },
+    {
+      "path": "lean/Erdos18c/DyadicEntropy.lean",
+      "sha256": "9b58ea3a1bdc12001771416cb5409d630c2bf8ca426abef4fa81916e4ee928e1"
+    },
+    {
+      "path": "lean/Erdos18c/EntropyEstimates.lean",
+      "sha256": "ae5ccbcf48cdd7dd2e073844c9404fdd9d6906689dcbf7701ea8560f73ba8c67"
+    },
+    {
+      "path": "lean/Erdos18c/FinalBound.lean",
+      "sha256": "a50b7ac23efe77dbaa1c70f89a5141ad359066bc932ce7e5843d8d1943c7d28f"
+    },
+    {
+      "path": "lean/Erdos18c/FiniteConvolution.lean",
+      "sha256": "78c936bdbf78f2de36907479767c2471c1d90a42b0c91f344fa6c90bbd4dc461"
+    },
+    {
+      "path": "lean/Erdos18c/FiniteLaw.lean",
+      "sha256": "501ad0700e566e0e4b2b72d99f87f61146e9ffa01107604d9a3ab7fd2e644796"
+    },
+    {
+      "path": "lean/Erdos18c/GlobalBounds.lean",
+      "sha256": "e4ef0a346612a43041e693e755251f18676bdf8669f32fa6d0da33be446f3021"
+    },
+    {
+      "path": "lean/Erdos18c/HarmonicMixing.lean",
+      "sha256": "bedaebb73594a26e56145813944acf6c41c78334c383c6ab181aba6238e45bba"
+    },
+    {
+      "path": "lean/Erdos18c/IntegerLifting.lean",
+      "sha256": "4844f47a67a82e76e6cb249d0d9167f592533d0b784faa3410992f1edc8585e0"
+    },
+    {
+      "path": "lean/Erdos18c/LiftingScale.lean",
+      "sha256": "d862f5e214bf333e3fe43e0bd5b6ef86701608a4d47ae7fe281df79d491e7e5c"
+    },
+    {
+      "path": "lean/Erdos18c/LinearDigitSupply.lean",
+      "sha256": "4c92d2a321ad54b92c47c36cf00c52ba1f25611f25679d34330b76ceb904ca84"
+    },
+    {
+      "path": "lean/Erdos18c/LocalBounds.lean",
+      "sha256": "45c29f2e0f5544906c46ae8d84b22b5e10b8758d66b10275736cfb3c136fd31c"
+    },
+    {
+      "path": "lean/Erdos18c/LocalRepresentatives.lean",
+      "sha256": "0441995e5cd151f9c7a894473e35c23cd87884833d0ab722926206345690922e"
+    },
+    {
+      "path": "lean/Erdos18c/LocalShortSums.lean",
+      "sha256": "00cfb2b1b8710d6ff60ad44f7c2a3ebfac2a253d07f88948645312b443f75a29"
+    },
+    {
+      "path": "lean/Erdos18c/LogPotential.lean",
+      "sha256": "517e68845be347c8b55e7984f23fa06ef29ec9d23f795b7a3a2f50c4ea09ca19"
+    },
+    {
+      "path": "lean/Erdos18c/OriginalStatement.lean",
+      "sha256": "e0886f4e3587ce4b6424a1910e68033ac686fa50f8be75c5d70fd521a668a98f"
+    },
+    {
+      "path": "lean/Erdos18c/Target.lean",
+      "sha256": "23e8bff171df9b8da364754f6e2efc36dfa947d7bdf0037594db8d871cce125c"
+    },
+    {
+      "path": "lean/Erdos18c.lean",
+      "sha256": "356821b9e3f9f3ac6d51d0c2b37d020e013e14529dda3a2dc61fe9d1eb5f349e"
+    }
+  ],
+  "source_and_git_blob_bytes_equal": true,
+  "all_match_successful_clean_build_receipts": true,
+  "post_commit_trust_zero_receipt": "Erdos18c.trust-zero.json",
+  "target_axioms": {
+    "Erdos18c.ninthPowerBound": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos18c.erdos_18_full": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos18.erdos_18a": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos18.erdos_18b": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos18.erdos_18c": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  "mathematical_source_assumptions_added": false
+}

@@ -1,0 +1,34 @@
+{
+  "module": "Erdos18c.LogPotential",
+  "command": [
+    "C:/Users/grant/.elan/toolchains/leanprover--lean4---v4.34.0/bin/lean.exe",
+    "--memory=2048",
+    "-j1",
+    "--root=F:\\Problems agent\\hub\\submission_repositories\\erdos18-harmonic-shifts-20261101\\lean",
+    "-o",
+    "F:\\Problems agent\\hub\\submission_repositories\\erdos18-harmonic-shifts-20261101\\lean\\.verify-p7606gcs\\Erdos18c\\LogPotential.olean",
+    "F:\\Problems agent\\hub\\submission_repositories\\erdos18-harmonic-shifts-20261101\\lean\\Erdos18c\\LogPotential.lean"
+  ],
+  "dependency_project": "F:\\jsp-work\\Jsp614",
+  "source_sha256": "517e68845be347c8b55e7984f23fa06ef29ec9d23f795b7a3a2f50c4ea09ca19",
+  "checked_at": "2026-11-01T19:29:56.463558+00:00",
+  "elapsed_seconds": 8.625,
+  "exit_code": 0,
+  "timeout": false,
+  "timeout_seconds": 180,
+  "memory_mb": 2048,
+  "stdout": "'Erdos18c.localPotential_step' depends on axioms: [propext, Classical.choice, Quot.sound]\n",
+  "stderr": "",
+  "full_erdos18c_verification": false,
+  "trust_zero": false,
+  "scope": "This record covers the named module only.",
+  "axiom_audits": {
+    "Erdos18c.localPotential_step": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  "axiom_audits_standard_only": true,
+  "output_sha256": "6b3e3f370a0ffc4d3baaf4ee6c26cda1a1de295630f0926bbdfe2892fbba82ab"
+}

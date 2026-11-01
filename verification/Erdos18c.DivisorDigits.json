@@ -1,0 +1,39 @@
+{
+  "module": "Erdos18c.DivisorDigits",
+  "command": [
+    "C:/Users/grant/.elan/toolchains/leanprover--lean4---v4.34.0/bin/lean.exe",
+    "--memory=2048",
+    "-j1",
+    "--root=F:\\Problems agent\\hub\\submission_repositories\\erdos18-harmonic-shifts-20261101\\lean",
+    "-o",
+    "F:\\Problems agent\\hub\\submission_repositories\\erdos18-harmonic-shifts-20261101\\lean\\.verify-p7606gcs\\Erdos18c\\DivisorDigits.olean",
+    "F:\\Problems agent\\hub\\submission_repositories\\erdos18-harmonic-shifts-20261101\\lean\\Erdos18c\\DivisorDigits.lean"
+  ],
+  "dependency_project": "F:\\jsp-work\\Jsp614",
+  "source_sha256": "06d8f3296d8398237c17f7a68e0d604ace1f893ef1d182e9d5a3bcddfaa5b02d",
+  "checked_at": "2026-11-01T19:27:58.093840+00:00",
+  "elapsed_seconds": 19.485,
+  "exit_code": 0,
+  "timeout": false,
+  "timeout_seconds": 180,
+  "memory_mb": 2048,
+  "stdout": "'Erdos18c.shortFactorialDigits_uniform_linear' depends on axioms: [propext, Classical.choice, Quot.sound]\n'Erdos18c.binary_block_set_profile_top' depends on axioms: [propext, Classical.choice, Quot.sound]\n",
+  "stderr": "",
+  "full_erdos18c_verification": false,
+  "trust_zero": false,
+  "scope": "This record covers the named module only.",
+  "axiom_audits": {
+    "Erdos18c.shortFactorialDigits_uniform_linear": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos18c.binary_block_set_profile_top": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  "axiom_audits_standard_only": true,
+  "output_sha256": "7222c8673631f56e38dd3e37c5f89262ceff95d4724bcd2c5d3a55c310311e10"
+}

@@ -1,0 +1,34 @@
+{
+  "module": "Erdos18c.DyadicConvolution",
+  "command": [
+    "C:/Users/grant/.elan/toolchains/leanprover--lean4---v4.34.0/bin/lean.exe",
+    "--memory=2048",
+    "-j1",
+    "--root=F:\\Problems agent\\hub\\submission_repositories\\erdos18-harmonic-shifts-20261101\\lean",
+    "-o",
+    "F:\\Problems agent\\hub\\submission_repositories\\erdos18-harmonic-shifts-20261101\\lean\\.verify-p7606gcs\\Erdos18c\\DyadicConvolution.olean",
+    "F:\\Problems agent\\hub\\submission_repositories\\erdos18-harmonic-shifts-20261101\\lean\\Erdos18c\\DyadicConvolution.lean"
+  ],
+  "dependency_project": "F:\\jsp-work\\Jsp614",
+  "source_sha256": "b01bd6deecc3f30809ee8e853336bc1cea1feeec31115c13bde2ff606ba94a71",
+  "checked_at": "2026-11-01T19:28:49.467646+00:00",
+  "elapsed_seconds": 7.594,
+  "exit_code": 0,
+  "timeout": false,
+  "timeout_seconds": 180,
+  "memory_mb": 2048,
+  "stdout": "'Erdos18c.dyadic_bitBias_convolutionPow' depends on axioms: [propext, Classical.choice, Quot.sound]\n",
+  "stderr": "",
+  "full_erdos18c_verification": false,
+  "trust_zero": false,
+  "scope": "This record covers the named module only.",
+  "axiom_audits": {
+    "Erdos18c.dyadic_bitBias_convolutionPow": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  "axiom_audits_standard_only": true,
+  "output_sha256": "50c605b68ccbdc322773f1061a64a5e3ffb65224bf685fdda0ed6b8d0343816a"
+}

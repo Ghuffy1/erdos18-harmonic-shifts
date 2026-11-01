@@ -1,0 +1,11 @@
+{
+  "checked_at": "2026-11-01T18:55:07.882259+00:00",
+  "pdf_sha256": "5706d2f811057deb6bcf0ffe698092552039959fe3b5f4bd5e026e6f13b1b451",
+  "pages": 10,
+  "all_pages_rendered": true,
+  "all_pages_visually_inspected": true,
+  "visual_defects_found": [],
+  "equations_rendered": 340,
+  "math_errors": [],
+  "overflows": []
+}

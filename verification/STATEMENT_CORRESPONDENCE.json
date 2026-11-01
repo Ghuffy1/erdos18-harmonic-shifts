@@ -1,0 +1,16 @@
+{
+  "proof_commit": "4b2ed2d07693602fa3b87fb5aa72fe16933f98af",
+  "upstream_commit": "a64e959c32c270df4dd0d96d2027481f15750534",
+  "byte_matched_reference_blobs": {
+    "FormalConjectures-18.txt": "b271cde9f99252c9430b2d99db12dfef70077da4",
+    "FormalConjectures-PracticalNumbers.txt": "5232acfb635006def7014d7863612d1f1eaaaefb",
+    "FormalConjectures-AdditivelyComplete.txt": "6b1bf6f167619ca16dbd97ac19a4c71eaa448e1b"
+  },
+  "correspondence_module": "lean/Erdos18c/OriginalStatement.lean",
+  "definitions_proved_equivalent": [
+    "subsetSums_eq_original",
+    "practicalH_eq_original",
+    "isPractical_iff_original"
+  ],
+  "unproved_upstream_conjectures_imported": false
+}
