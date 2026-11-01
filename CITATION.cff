@@ -1,0 +1,15 @@
+cff-version: 1.2.0
+message: "Cite the manuscript and preserve the credited prior work described therein. Unpublished draft."
+type: software
+title: "Harmonic dyadic shifts and short sums of factorial divisors"
+authors:
+  - family-names: Howe
+    given-names: Will
+  - family-names: Huffman
+    given-names: Grant
+  - family-names: Kohlmeyer
+    given-names: Jensen
+  - family-names: Kruer
+    given-names: Liam
+version: 0.1.0
+abstract: "Unpublished manuscript and full Lean formalization of a ninth-power logarithmic bound for h(n!), with the three original Erdős 18 conclusions. Author roles are not apportioned by this metadata."
